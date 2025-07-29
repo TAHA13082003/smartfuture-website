@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smartfuture-website</title>
+</head>
+<body>
+    <header>
+        <h1>
+    SmartFuture Academy
+        </h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="admission.html">Admission</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+        <h2>Admission Form</h2>
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label><br>
+
+            <input type="text" id="name" name="name" required ><br><br>
+            <label for="Email">Email:</label><br>
+            <input type="email" name="email" id="Email" required><br><br>
+            <label for="Dob">Date of Birth:</label>
+            <input type="date" name="Dob" id="Dob" required><br><br>
+            <p>Gender:</p>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Others">
+            <label for="Others">Others</label> <br><br>
+
+            <label for="Courses">Courses:</label>
+            <select name="Course" id="Courses" required>
+            <option value="DS">Data Structure</option>
+            <option value="WD">Web Development</option>
+            <option value="OS">Operating System</option><br><br><br>
+
+            </select>
+
+            <input type="checkbox" name="agree" id="Agree"required>
+            <label for="Agree">I agree to the terms and conditions</label><br><br>
+
+        <button type="submit">submit</button>
+
+
+        </form>
+       
+        
+
+
+    </main>
+    
+    <footer>
+
+        <p>&copy;2025 SmartFuture Academy | Email: smartfuture@email.com</p>
+
+    </footer>
+</body>
+</html>

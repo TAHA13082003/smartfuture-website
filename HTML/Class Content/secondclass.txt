@@ -1,0 +1,8 @@
+#Todays recap list
+
+**Recap**
+**Forms**
+- Basics
+- <select> witho
+post and get..
+mone rakhte hobe sensetive information post e rakhte hobe...get e rakhle seta exposed hoiye jabe..tokhon oita sobai dekhte parbe..so eita khub valo kore mone rakha proyojon.
